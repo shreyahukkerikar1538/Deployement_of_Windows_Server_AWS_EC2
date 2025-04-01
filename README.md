@@ -36,9 +36,8 @@ Before starting, make sure you have the following:
   - `setup.ps1`: A PowerShell script that installs necessary software and configurations on the server.
 
 ## Files:
-- **setup.ps1**: PowerShell script for automated Windows Server setup.
-- **config.json**: Configuration file for the EC2 instance (if applicable).
-- **readme.md**: Documentation explaining the steps for deploying Windows Server on EC2.
+- index.html: The main HTML file that structures the webpage.
+- style.css: The CSS file responsible for styling the webpage.
 
 ## Troubleshooting:
 - **Cannot connect via RDP**: Ensure that your EC2 security group allows **TCP port 3389** for inbound connections.
